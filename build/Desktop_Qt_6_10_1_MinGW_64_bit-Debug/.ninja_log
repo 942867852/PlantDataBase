@@ -1,0 +1,24 @@
+# ninja log v6
+14	494	7876597950346022	PlantDatabase_autogen/timestamp	f281981d0ec5be11
+529	1571	7876596540178133	CMakeFiles/PlantDatabase.dir/a.cpp.obj	7a27dd82730ce896
+14	494	7876597950346022	PlantDatabase_autogen/mocs_compilation.cpp	f281981d0ec5be11
+1556	1711	7876597520539624	PlantDatabase.exe	e72424820611100a
+14	494	7876597950346022	D:/QtProject/PlantDatabase/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/PlantDatabase_autogen/timestamp	f281981d0ec5be11
+522	2154	7876596540107173	CMakeFiles/PlantDatabase.dir/PlantDatabase_autogen/mocs_compilation.cpp.obj	8c237dff649e1010
+31	41	7876597945366538	clean	101d0f6048d5fe99
+14	494	7876597950346022	D:/QtProject/PlantDatabase/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/PlantDatabase_autogen/mocs_compilation.cpp	f281981d0ec5be11
+99	1556	7876597506081791	CMakeFiles/PlantDatabase.dir/mainwindow.cpp.obj	3f3adba407acf7ee
+523	1982	7876596540127167	CMakeFiles/PlantDatabase.dir/main.cpp.obj	60b607fa61550114
+531	1727	7876596540178133	CMakeFiles/PlantDatabase.dir/b.cpp.obj	da2d9fad1a695f9f
+133	1624	7874924668980971	CMakeFiles/PlantDatabase.dir/testwidget.cpp.obj	5f270f40d10e5940
+135	1639	7874924669010970	CMakeFiles/PlantDatabase.dir/testdialog.cpp.obj	da971130debea74c
+501	2143	7876597950906547	CMakeFiles/PlantDatabase.dir/dialog.cpp.obj	9183736653aef966
+11	31	7876597945156543	CMakeFiles/clean.additional	adcc2f785672e3a3
+24	577	7876654165802526	PlantDatabase_autogen/timestamp	f281981d0ec5be11
+24	577	7876654165802526	PlantDatabase_autogen/mocs_compilation.cpp	f281981d0ec5be11
+24	577	7876654165802526	D:/QtProject/PlantDatabase/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/PlantDatabase_autogen/timestamp	f281981d0ec5be11
+24	577	7876654165802526	D:/QtProject/PlantDatabase/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/PlantDatabase_autogen/mocs_compilation.cpp	f281981d0ec5be11
+578	2405	7876654166312445	CMakeFiles/PlantDatabase.dir/PlantDatabase_autogen/mocs_compilation.cpp.obj	8c237dff649e1010
+653	2442	7876654167052508	CMakeFiles/PlantDatabase.dir/main.cpp.obj	60b607fa61550114
+655	2468	7876654167082534	CMakeFiles/PlantDatabase.dir/mainwindow.cpp.obj	3f3adba407acf7ee
+2468	2771	7876654185211784	PlantDatabase.exe	12cf1b9b6888dd9
