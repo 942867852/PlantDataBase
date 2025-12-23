@@ -316,6 +316,18 @@
 	"HEADERS" : 
 	[
 		[
+			"D:/QtProject/PlantDatabase/cplant.h",
+			"MU",
+			"EWIEGA46WW/moc_cplant.cpp",
+			null
+		],
+		[
+			"D:/QtProject/PlantDatabase/cplantmanager.h",
+			"MU",
+			"EWIEGA46WW/moc_cplantmanager.cpp",
+			null
+		],
+		[
 			"D:/QtProject/PlantDatabase/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -393,6 +405,8 @@
 	"SETTINGS_FILE" : "D:/QtProject/PlantDatabase/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/PlantDatabase_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "D:/QtProject/PlantDatabase/cplant.cpp", "MU", null ],
+		[ "D:/QtProject/PlantDatabase/cplantmanager.cpp", "MU", null ],
 		[ "D:/QtProject/PlantDatabase/main.cpp", "MU", null ],
 		[ "D:/QtProject/PlantDatabase/mainwindow.cpp", "MU", null ]
 	],

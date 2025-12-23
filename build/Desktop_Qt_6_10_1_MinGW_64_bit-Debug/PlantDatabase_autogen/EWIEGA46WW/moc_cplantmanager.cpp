@@ -1,12 +1,12 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'dialog.h'
+** Meta object code from reading C++ file 'cplantmanager.h'
 **
 ** Created by: The Qt Meta Object Compiler version 69 (Qt 6.10.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../dialog.h"
+#include "../../../../cplantmanager.h"
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>
@@ -16,7 +16,7 @@
 
 #include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'dialog.h' doesn't include <QObject>."
+#error "The header file 'cplantmanager.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 69
 #error "This file was generated using the moc from 6.10.1. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -31,14 +31,14 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN6DialogE_t {};
+struct qt_meta_tag_ZN13CPlantManagerE_t {};
 } // unnamed namespace
 
-template <> constexpr inline auto Dialog::qt_create_metaobjectdata<qt_meta_tag_ZN6DialogE_t>()
+template <> constexpr inline auto CPlantManager::qt_create_metaobjectdata<qt_meta_tag_ZN13CPlantManagerE_t>()
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "Dialog"
+        "CPlantManager"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -47,44 +47,44 @@ template <> constexpr inline auto Dialog::qt_create_metaobjectdata<qt_meta_tag_Z
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<Dialog, qt_meta_tag_ZN6DialogE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+    return QtMocHelpers::metaObjectData<CPlantManager, qt_meta_tag_ZN13CPlantManagerE_t>(QMC::MetaObjectFlag{}, qt_stringData,
             qt_methods, qt_properties, qt_enums);
 }
-Q_CONSTINIT const QMetaObject Dialog::staticMetaObject = { {
-    QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN6DialogE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN6DialogE_t>.data,
+Q_CONSTINIT const QMetaObject CPlantManager::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13CPlantManagerE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13CPlantManagerE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN6DialogE_t>.metaTypes,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN13CPlantManagerE_t>.metaTypes,
     nullptr
 } };
 
-void Dialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void CPlantManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    auto *_t = static_cast<Dialog *>(_o);
+    auto *_t = static_cast<CPlantManager *>(_o);
     (void)_t;
     (void)_c;
     (void)_id;
     (void)_a;
 }
 
-const QMetaObject *Dialog::metaObject() const
+const QMetaObject *CPlantManager::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *Dialog::qt_metacast(const char *_clname)
+void *CPlantManager::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN6DialogE_t>.strings))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13CPlantManagerE_t>.strings))
         return static_cast<void*>(this);
-    return QDialog::qt_metacast(_clname);
+    return QObject::qt_metacast(_clname);
 }
 
-int Dialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int CPlantManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QDialog::qt_metacall(_c, _id, _a);
+    _id = QObject::qt_metacall(_c, _id, _a);
     return _id;
 }
 QT_WARNING_POP

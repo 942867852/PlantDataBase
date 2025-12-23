@@ -23,6 +23,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(PlantDatabase
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        cplant.h cplant.cpp
+        cplantmanager.h cplantmanager.cpp
 
 
 

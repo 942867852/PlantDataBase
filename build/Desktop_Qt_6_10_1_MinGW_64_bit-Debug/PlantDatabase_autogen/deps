@@ -1,4 +1,8 @@
 PlantDatabase_autogen/timestamp: \
+	D:/Qt/6.10.1/mingw_64/include/QtCore/QList \
+	D:/Qt/6.10.1/mingw_64/include/QtCore/QObject \
+	D:/Qt/6.10.1/mingw_64/include/QtCore/QSet \
+	D:/Qt/6.10.1/mingw_64/include/QtCore/QString \
 	D:/Qt/6.10.1/mingw_64/include/QtCore/q17memory.h \
 	D:/Qt/6.10.1/mingw_64/include/QtCore/q20functional.h \
 	D:/Qt/6.10.1/mingw_64/include/QtCore/q20iterator.h \
@@ -558,6 +562,10 @@ PlantDatabase_autogen/timestamp: \
 	D:/QtProject/PlantDatabase/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	D:/QtProject/PlantDatabase/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	D:/QtProject/PlantDatabase/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/PlantDatabase_autogen/moc_predefs.h \
+	D:/QtProject/PlantDatabase/cplant.cpp \
+	D:/QtProject/PlantDatabase/cplant.h \
+	D:/QtProject/PlantDatabase/cplantmanager.cpp \
+	D:/QtProject/PlantDatabase/cplantmanager.h \
 	D:/QtProject/PlantDatabase/main.cpp \
 	D:/QtProject/PlantDatabase/mainwindow.cpp \
 	D:/QtProject/PlantDatabase/mainwindow.h \

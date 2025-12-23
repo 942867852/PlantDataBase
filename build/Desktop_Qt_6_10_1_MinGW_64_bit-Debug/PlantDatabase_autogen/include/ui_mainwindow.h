@@ -11,7 +11,6 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -24,8 +23,8 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QPushButton *switch1;
-    QLabel *TimeLable;
+    QPushButton *pushButton;
+    QPushButton *pushButton_2;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -36,12 +35,12 @@ public:
         MainWindow->resize(800, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        switch1 = new QPushButton(centralwidget);
-        switch1->setObjectName("switch1");
-        switch1->setGeometry(QRect(260, 160, 93, 28));
-        TimeLable = new QLabel(centralwidget);
-        TimeLable->setObjectName("TimeLable");
-        TimeLable->setGeometry(QRect(380, 170, 69, 19));
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(50, 70, 93, 28));
+        pushButton_2 = new QPushButton(centralwidget);
+        pushButton_2->setObjectName("pushButton_2");
+        pushButton_2->setGeometry(QRect(150, 70, 93, 28));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -59,8 +58,8 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        switch1->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
-        TimeLable->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "\346\217\222\345\205\245\346\244\215\347\211\251", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("MainWindow", "\346\237\245\346\211\276\346\244\215\347\211\251", nullptr));
     } // retranslateUi
 
 };
