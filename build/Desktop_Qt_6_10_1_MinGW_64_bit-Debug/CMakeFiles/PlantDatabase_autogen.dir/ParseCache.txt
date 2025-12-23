@@ -700,6 +700,6 @@ D:/QtProject/PlantDatabase/mainwindow.h
  mdp:D:/QtProject/PlantDatabase/mainwindow.h
 D:/QtProject/PlantDatabase/cplant.cpp
 D:/QtProject/PlantDatabase/cplantmanager.cpp
+D:/QtProject/PlantDatabase/main.cpp
 D:/QtProject/PlantDatabase/mainwindow.cpp
  uic:./ui_mainwindow.h
-D:/QtProject/PlantDatabase/main.cpp
